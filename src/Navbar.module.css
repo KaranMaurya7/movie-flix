@@ -1,0 +1,43 @@
+.nav {
+    width: 98%;
+    height: 50px;
+    padding: 15px;
+    background-color: green;
+    border-radius: 0 5px 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: xx-large;
+    text-transform: uppercase;
+    color: #fff;
+    transition: 0.5s all ease-in-out;
+
+    &:hover {
+        color: lightblue
+    }
+}
+
+.cart {
+    position: relative;
+    cursor: pointer;
+}
+
+.cartImg {
+    width: 35px;
+    height: 35px;
+    filter: brightness(0) invert(1);
+}
+
+.cartCount {
+    background: lightblue;
+    filter: opacity(90%);
+    border-radius: 50%;
+    padding: 2px 8px;
+    position: absolute;
+    right: 9px;
+    top: 1px;
+}
